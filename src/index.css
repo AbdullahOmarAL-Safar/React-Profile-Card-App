@@ -1,0 +1,28 @@
+.card{
+    border: 1px solid hsl(0, 0%, 35%);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #a7a7a7;
+    padding: 20px;
+    margin: 10px;
+    display: inline-block;
+    text-align: center;
+}
+
+.card .card-image{
+    max-width: 200px;
+    height: auto;
+    border-radius: 100%;
+    margin-bottom: 10px;
+
+}
+
+.card .Card-title{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    color: rgb(66, 66, 66);
+}
+
+.card .Card-text{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: brown;
+}
